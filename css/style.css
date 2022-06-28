@@ -135,14 +135,6 @@ img {
     align-items: center;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    margin: 60px 0 60px 8%;
-    text-align: left;
-    width: 42%;
-}
-
 .cafe img {
     border-bottom-right-radius: 80px;
     object-fit: contain;
@@ -150,6 +142,15 @@ img {
 
 .cafe {
     width: 50%;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 60px 8%;
+    text-align: left;
+    width: 42%;
 }
 
 .about h2 img {
@@ -462,13 +463,45 @@ img {
     }
 
     /* ABOUT枠 */
-    .coffe {
-        font-size: 3.63vw;
+    .about {
+        display: block;
+        /* display: flex;
+        flex-direction: column; */
+        margin: 0 auto;
+    }
+
+    .about h2 img {
+        /*  width: 272px;
+        height: 77px;
+        padding-bottom: 60px; */
+        width: 160px;
+        height: 45px;
+    }
+
+    .shoukai {
+        display: block;
+        margin: 0 auto;
+        /* text-align: center;
+        display: flex;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 0 10px;
+        align-items: center; */
     }
 
     .cafe img {
-        width: 100vw;
-        align-items: center;
+        display: block;
+        width: 100%;
+        /*   align-items: center; */
+    }
+
+    .coffe {
+        text-align: center;
+        /* font-size: 3.63vw; */
+        font-size: 36px;
+        /*  width: 375px; */
+        /* height: 245px; */
+        margin: 0 auto;
     }
 
     .tee {
@@ -476,21 +509,34 @@ img {
         line-height: 1.75;
         text-align: center;
         padding-bottom: 60px;
+        padding-top: 20px;
+        margin: 0 auto;
+        /* width: 340px; */
+    }
+
+    /* MENU枠 */
+    .menu {
+        margin: 0 40px;
     }
 
     .moji {
         align-items: center;
-        width: 58%;
+        /* width: 58%; */
         margin: 0 auto;
+        width: 88px;
+        height: 45px;
     }
 
-    /* MENU枠 */
     .set {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        display: block;
         margin: 0 auto;
+        /* flex-direction: column;
+        justify-content: space-between; */
         /* padding: 0 70px; */
+    }
+
+    .set>div {
+        width: 100%;
     }
 
     /*  .set img:not(:last-child) {
@@ -515,18 +561,18 @@ img {
         line-height: 1.58;
         text-align: center;
         margin-top: 17px;
+        margin-bottom: 70px;
     }
 
-
+    /* gallery枠 */
     .gallery h2 {
-        padding: 90px 0 20px 0;
+        padding: 20px 0 20px 0;
         width: 140px;
         height: 40px;
         margin: 0 auto;
         align-items: center;
     }
 
-    /* ここから変えていく */
     .gallery ul {
         display: flex;
         text-align: center;
@@ -538,31 +584,33 @@ img {
         height: 300px;
     }
 
+    /* event枠 */
     .event {
-        padding: 0 10px;
+        /* padding: 0 10px; */
     }
 
     .event p {
         padding: 70px 0 45px 0;
-        width: 174px;
-        height: 78px;
+        width: 101px;
+        height: 45px;
         margin: 0 auto;
     }
 
     .event ul {
-        max-width: 340px;
-        padding: 20px 20px 2. 0px 40px;
+        /* max-width: 340px; */
+        /* padding: 20px 20px 2. 0px 40px; */
+        /*  font-size: 23px; */
+        display: block;
+        padding-top: 30px;
         border: 4px solid #4f260b;
         margin: 0 auto;
         background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 23px;
+        /*  display: flex;
+        flex-direction: column; */
+        text-align: left;
         justify-content: center;
-        padding-left: 14%;
+        padding-left: 20px;
         box-sizing: border-box;
-
     }
 
     .event li {
@@ -573,6 +621,7 @@ img {
     }
 
     .span {
+        display: block;
         font-size: 16px;
         padding-left: 45px;
         text-decoration: underline;
@@ -584,6 +633,7 @@ img {
         text-overflow: ellipsis;
     }
 
+    /* マップ */
     .access {
         text-align: center;
     }
@@ -601,6 +651,7 @@ img {
         vertical-align: bottom;
     }
 
+    /* footer枠 */
     .cafelogo {
         text-align: right;
         width: 100px;
@@ -645,11 +696,12 @@ img {
         font-size: 16px;
     }
 
+    /* 
     .sp_nav {
         display: none;
     }
 
     .btn {
         display: none;
-    }
+    } */
 }

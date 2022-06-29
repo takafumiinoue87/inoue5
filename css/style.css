@@ -480,6 +480,8 @@ img {
         margin: 0 auto;
         align-items: center;
         display: block;
+        /*  position: absolute;
+        top: 0; */
     }
 
     .shoukai {
@@ -501,6 +503,8 @@ img {
     .cafe img {
         display: block;
         border-radius: 0 0 0 0;
+        /*  position: absolute;
+        bottom: 0; */
         /*   align-items: center; */
     }
 
@@ -651,6 +655,9 @@ img {
         width: 100%;
         overflow: hidden;
         text-overflow: ellipsis;
+        /* position: absolute;
+        top: 40px;
+        left: 60px; */
     }
 
     .wx .span {

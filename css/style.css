@@ -153,6 +153,11 @@ img {
     width: 42%;
 }
 
+
+.sp_about_logo {
+    display: none;
+}
+
 .about h2 img {
     width: 272px;
     height: 77px;
@@ -471,17 +476,21 @@ img {
         width: 100%;
     }
 
-    .about h2 img {
-        /*  width: 272px;
-        height: 77px;
-        padding-bottom: 60px; */
+    .sp_about_logo {
         width: 160px;
         height: 45px;
         margin: 0 auto;
+        padding-bottom: 20px;
         align-items: center;
         display: block;
-        /*  position: absolute;
-        top: 0; */
+    }
+
+    .about h2 img {
+        /* width: 160px;
+        height: 45px;
+        margin: 0 auto;
+        align-items: center; */
+        display: none;
     }
 
     .shoukai {
@@ -509,22 +518,24 @@ img {
     }
 
     .coffe {
-        text-align: center;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 40px;
         /* font-size: 3.63vw; */
         font-size: 36px;
         /*  width: 375px; */
         /* height: 245px; */
         margin: 0 auto;
-
         flex-direction: column-reverse;
     }
 
     .tee {
         font-size: 16px;
         line-height: 1.75;
-        text-align: center;
+        text-align: left;
         padding-bottom: 60px;
         padding-top: 20px;
+        padding-left: 30px;
         margin: 0 auto;
         /* width: 340px; */
     }
@@ -586,25 +597,31 @@ img {
         height: 40px;
         margin: 0 auto;
         align-items: center;
+
     }
 
     .gallery ul {
-        display: flex;
+        display: block;
         text-align: center;
-        width: 100vw;
+        margin: 0 auto;
     }
 
-    .gallery li {
+    /* .gallery li {
         width: 374px;
         height: 294px;
-        /* display: none; */
+        display: none;
+    } */
+
+    .gallery .milk1 {
+        width: 100%;
     }
 
-    .gallery milk2,
-    .gallery milk3,
-    .gallery milk4,
-    .gallery milk5 {
+    .gallery .milk2,
+    .gallery .milk3,
+    .gallery .milk4,
+    .gallery .milk5 {
         display: none;
+        width: 100%;
     }
 
     /* event枠 */
@@ -646,6 +663,7 @@ img {
     }
 
     .span {
+        padding-left: 0px;
         display: block;
         font-size: 16px;
         text-decoration: underline;
@@ -662,8 +680,6 @@ img {
 
     .wx .span {
         width: 220px;
-        text-decoration: underline;
-        text-align: left;
     }
 
     .xy .span {

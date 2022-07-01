@@ -133,6 +133,10 @@ img {
     text-align: center;
 }
 
+.br-sp {
+    display: block;
+}
+
 .shoukai {
     text-align: center;
     display: flex;
@@ -490,16 +494,16 @@ img {
 
     .catchcopy .bun {
         /* font-size: 16px; */
-        width: 340px;
-        height: 160px;
+        /* width: 340px;
+        height: 160px; */
         text-align: center;
         margin: 0 auto;
         font-size: 4.7vw;
     }
 
-    .bun br {
+    /* .bun br {
         display: none;
-    }
+    } */
 
     .br-sp {
         display: block;
